@@ -1,0 +1,18 @@
+.counter{
+    width: 350px;
+    height: 210px;
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+        width: 100%;
+        text-align: end;
+        font-size: 80px;
+        font-weight: 400;
+        letter-spacing: -3px;
+    }
+    
+}

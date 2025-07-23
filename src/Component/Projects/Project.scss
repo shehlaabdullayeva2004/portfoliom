@@ -1,0 +1,38 @@
+.projects {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .projectCard{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .cardContainer{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    // z-index: -2;
+    .projectImg{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .projectContent{
+        width: 80%;
+        height: 150px;
+        border-radius: 20px;
+        padding: 10px;
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        background-color: #111111;
+    }
+   
+  }
+}

@@ -1,0 +1,47 @@
+.experience {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .experienceHead {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    .headText {
+      width: 100%;
+      text-align: start;
+      font-size: 48px;
+      font-weight: 400;
+      letter-spacing: -3px;
+    }
+  }
+  .experiencedContent {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    .jobDate {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #111111;
+
+      &:hover {
+        border-bottom: 2px solid #f3500f;
+      transition-duration: 600ms;
+
+      }
+      &:hover p {
+        color: #f3500f;
+      transition-duration: 600ms;
+
+      }
+      p {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+}
