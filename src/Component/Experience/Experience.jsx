@@ -8,7 +8,9 @@ export default function Experience() {
     <section id="experience">
       <div className="experience">
         <div className="experienceHead">
-          <SectionTitle title={"Experience"} />
+          <div className="titleDot">
+            <SectionTitle title={"Experience"} />
+          </div>
           <p className="headText">
             I will offers more than just a place to live it’s a space designed
             to reflect your unique style inspiration

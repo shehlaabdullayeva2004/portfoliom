@@ -3,6 +3,7 @@ import "./ProfileCard.scss";
 import Profile from "../../assets/Images/profilee.webp";
 import { Link } from "react-router-dom";
 
+
 export default function ProfileCard() {
   return (
     // <div className="profileCardContainer">

@@ -7,6 +7,8 @@ import RightSideBar from '../../Component/RightSideBar/RightSideBar';
 import Introduction from '../../Component/Introduction/Introduction';
 import Experience from '../../Component/Experience/Experience';
 import Projects from '../../Component/Projects/Projects';
+import MyServices from '../../Component/MyServices/MyServices';
+import Contact from '../../Component/Contact/Contact';
 
 export default function Home() {
   const videoRef = useRef(null);
@@ -34,7 +36,9 @@ export default function Home() {
         <ProfileCard />
         <Introduction />
         <Experience />
-        <Projects/>
+        <Projects />
+        {/* <MyServices/> */}
+        <Contact/>
         <RightSideBar />
       </div>
     </div>

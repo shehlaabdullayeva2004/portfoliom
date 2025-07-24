@@ -1,6 +1,14 @@
-@import '../../Styles/main.scss';
+@import "../../Styles/main.scss";
 
 .sectionTitle {
-        font-size: 20px;
-        color: $dark-secondary-color;
-      }
+  font-size: 20px;
+  color: $dark-secondary-color;
+  position: relative;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+
+
+}

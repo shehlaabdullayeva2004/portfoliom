@@ -1,0 +1,26 @@
+@import "../../Styles/main.scss";
+
+.projects {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-evenly;
+ 
+  
+}
+.titleDot {
+    position: relative; 
+    padding-left: 14px;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 5px;
+        background-color: $dark-secondary-color;
+        border-radius: 50%;
+        bottom: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}

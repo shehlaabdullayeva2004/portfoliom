@@ -12,7 +12,7 @@ export default function Introduction() {
           <p>Baku, Azerbaijan time</p>
         </div>
         <div className="introMain">
-          <div className="sectionTitle">
+          <div className="titleDot">
             <span><SectionTitle title={'Introduction'}/></span>
           </div>
           <div className="introHead">
