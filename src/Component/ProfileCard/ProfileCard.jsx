@@ -48,7 +48,7 @@ export default function ProfileCard() {
         </div>
 
         <Link
-          className="card-contact"
+          className="cardContact"
           to={"https://mail.google.com/mail/u/0/#inbox"}
         >
           <p>Get started</p>

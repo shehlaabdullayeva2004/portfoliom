@@ -1,8 +1,8 @@
-@import "../../Styles/main.scss";
+@use '../../Styles/main.scss';
 
 .sectionTitle {
   font-size: 20px;
-  color: $dark-secondary-color;
+  color: main.$dark-secondary-color;
   position: relative;
   margin-bottom: 8px;
   display: flex;

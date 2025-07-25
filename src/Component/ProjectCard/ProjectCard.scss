@@ -1,4 +1,4 @@
-@import '../../Styles/main.scss';
+@use '../../Styles/main.scss';
 
 .projectCard {
     display: flex;
@@ -74,7 +74,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 1px solid $dark-secondary-color;
+            border: 1px solid main.$dark-secondary-color;
             border-radius: 20px;
             font-size: 40px;
             position: relative;

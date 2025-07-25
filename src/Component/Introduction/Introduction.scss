@@ -1,4 +1,4 @@
-@import "../../Styles/main.scss";
+@use '../../Styles/main.scss';
 
 #introduction {
   // width: 100%;
@@ -30,7 +30,7 @@
       }
       .introText{
         font-size:16px;
-        color: $dark-secondary-color;
+        color: main.$dark-secondary-color;
         max-width: 80%;
       }
     }

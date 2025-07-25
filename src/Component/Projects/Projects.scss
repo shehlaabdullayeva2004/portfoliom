@@ -1,4 +1,4 @@
-@import "../../Styles/main.scss";
+@use '../../Styles/main.scss';
 
 .projects {
   width: 65%;
@@ -17,7 +17,7 @@
         content: '';
         width: 5px;
         height: 5px;
-        background-color: $dark-secondary-color;
+        background-color: main.$dark-secondary-color;
         border-radius: 50%;
         bottom: 50%;
         left: 0;

@@ -1,4 +1,4 @@
-@import "../../Styles/main.scss";
+@use '../../Styles/main.scss';
 
 .rightSideBar {
   width: 70px;
@@ -31,7 +31,7 @@
       justify-content: center;
       &:hover {
       background-color: #414040;
-        color: $dark-main-color;
+        color: main.$dark-main-color;
         transition: all 300ms ease-in-out;
       }
      &:hover .rightSideBarLink span{

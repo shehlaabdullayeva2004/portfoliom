@@ -1,3 +1,5 @@
+@use "../../Styles/main.scss";
+
 .contact {
   width: 65%;
   display: flex;
@@ -5,7 +7,7 @@
   justify-content: space-evenly;
   .contactContainer {
     width: 80%;
-    height: 100vh;
+    min-height: 80vh;
     border-radius: 25px;
     padding: 50px 60px;
     display: flex;
@@ -17,5 +19,87 @@
       width: 80%;
       line-height: 80px;
     }
+    .contactForm {
+      height: 100%;
+      display: flex;
+     
+      .form {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .name {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          font-size: 20px;
+          font-weight: 500;
+          border: none;
+          border-bottom: 1px solid #838080cc;
+          padding-bottom: 10px;
+           color: #fff;
+          input,
+          textarea {
+            background-color: transparent;
+            border: none;
+            font-size: 16px;
+            outline: none;
+            &::placeholder {
+              color: #515151;
+              font-weight: 600;
+            }
+          }
+          textarea::placeholder {
+            color: #515151;
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+        .contactBtn {
+          width: 40%;
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          padding: 10px;
+          align-items: center;
+          border-radius: 50px;
+          border: 1px solid #6b6a6a;
+          background-color: #fff;
+          font-size: 16px;
+          font-weight: 600;
+          color: #3b3b3b;
+     
+          .cardIcon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: #0d0d0d;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            i {
+              transform: rotate(-45deg);
+            }
+          }
+          &:hover{
+            color: #F3500F;
+            transition: all 500ms;
+
+            i{
+              color: #F3500F;
+            transition: all 500ms;
+
+            }
+          }
+
+        }
+      }
+    }
   }
 }
+
+
