@@ -2,14 +2,17 @@
 
 #introduction {
   // width: 100%;
-  // min-height: 100vh;
+   min-height: 100vh;
   // display: flex;
   // justify-content: flex-end;
   .introduction {
+    padding-top: 50px;
       width: 65%;
+      min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+   
     .time {
       p {
         font-size: 18px;
@@ -23,6 +26,7 @@
 
       
       .introHead {
+        min-height: 120px;
         font-size: 64px;
         font-weight: 500;
         line-height: 58px;
@@ -35,12 +39,14 @@
       }
     }
     .introTags{
+     margin-top: 60px;
       width: 40%;
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
     }
     .introCounter{
+      margin-top: 50px;
       display: flex;
       justify-content: space-between;
       width: 80%;

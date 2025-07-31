@@ -1,15 +1,14 @@
 import React from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import './Counter.scss';
+import "./Counter.scss";
 
-export default function Counter({ name,content }) {
+export default function Counter({ name, content }) {
   return (
     <div className="counter">
-      <p>
-        <SectionTitle title={name}/>
-      </p>
-          <h1>{ content} </h1>
+      <div>
+        <SectionTitle title={name} />
       </div>
-      
+      <h1>{content} </h1>
+    </div>
   );
 }

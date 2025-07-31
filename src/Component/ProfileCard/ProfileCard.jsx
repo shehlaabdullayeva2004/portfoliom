@@ -18,9 +18,7 @@ export default function ProfileCard() {
           <div className="cardImg">
             <img src={Profile} alt="" />
           </div>
-          {/* <div className="cardText">
-          <p>Shehla</p>
-        </div> */}
+          
         </div>
         <div className="cardMail">
           <p>shahlaabdullayevaa@gmail.com</p>
